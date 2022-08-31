@@ -8,5 +8,5 @@ pip install multiprocessing
 pip install colorama
 pip install smtplib
 pip install re
-pip install termimage
+pkg install termimage
 python DeClient.py
