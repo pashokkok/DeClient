@@ -18,7 +18,6 @@ import subprocess as subp
 from shutil import which
 from colorama import init 
 from colorama import Fore, Back, Style
-import time
 import smtplib
 import multiprocessing
 from os import system
