@@ -23,7 +23,7 @@ import smtplib
 import multiprocessing
 from os import system
 import re
-version = '1.1'
+version = '1.3'
 time.sleep(3)
 print(G + '[+]' + C + ' Проверка обновлений.....', end='')
 ver_url = 'https://raw.githubusercontent.com/pashokkok/DeClient/main/version.txt'
@@ -42,15 +42,9 @@ try:
 			newver = input(G + '[1]' + C + 'Как мне обновить DeClient до новой версии? \n' + G + '[2]' + C + 'Выйти' + G + '\nMe4Sploit ==> ')
 			if newver == "1" :
 				print(Fore.MAGENTA)
-				print('Пункт 1: Зайдите в наш телеграм канал')
+				print('Пункт 1: Зайдите в наш телеграм канал: dark_softcode')
 				time.sleep(3)
-				print('Пункт 2: Удалите папку Me4Sploit')
-				time.sleep(3)
-				print('Пункт 3: Скачайте новый Me4Sploit командой: "git clone https://github.com/pashokkok/Me4sploit"')
-				time.sleep(3)
-				print('Пункт 4: Зайдите в папку Me4Sploit командой: "cd Me4Sploit"')
-				time.sleep(3)
-				print('Пункт 5: Запустите инсталлер командой: "bash install.sh", последующие запуски проводятся командами: "python Me4Sploit.py"')
+				print('Пункт 2: Напишите Админу @ImOmnipotent для получения новой версии')
 				time.sleep(3)
 				print('Удачи! Мы вас ждем с новой версией!')
 				time.sleep(5)
